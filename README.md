@@ -20,8 +20,7 @@ None really, all is done in the browser
 1. Open up the Spreadsheet you want to use the functions in
 2. Head to Tools -> Script Editor
 3. Copy and paste the code in code.gs (or download code.gj and go "file -> open -> locate code.gs on your computer")
-4. Right click the A-column and select "hide column" 
-5. Use the functions as follows:
+4.. Use the functions as follows:
     ### lastPrice:
     ```excel
     =lastPrice(id, $A$1)
@@ -39,7 +38,7 @@ None really, all is done in the browser
     Where id is the ID that Avanza provides in the URL
 
     ![alt text](https://i.imgur.com/offfiSk.png "url with the id underlined")
-    
+
     Obs! The $A$1 is important to make the script update correctly
 
 
