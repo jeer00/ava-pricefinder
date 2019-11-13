@@ -2,7 +2,7 @@
 
 
 
-A Google Spreatsheed that via scraping the Avanza network traffic returns a stocks lastprice or a funds latest known NAV, reachable by custom functions in Google Spreadsheet
+A Google Script that via scraping the Avanza network traffic returns a stocks lastprice or a funds latest known NAV, reachable by custom functions in Google Spreadsheet
 
 ## Getting started
 
@@ -27,7 +27,9 @@ None really, all is done in the browser
     =lastPrice(id, $A$1)
     ```
     Where id is the ID that Avanza provides in the URL. 
+
     ![alt text](https://i.imgur.com/dzunmFO.png "url with the id underlined")
+
     Obs! The $A$1 is important to make the script update correctly
 
     ### nav:
@@ -35,7 +37,9 @@ None really, all is done in the browser
     =nav(id, $A$1)
     ```
     Where id is the ID that Avanza provides in the URL
+
     ![alt text](https://i.imgur.com/offfiSk.png "url with the id underlined")
+    
     Obs! The $A$1 is important to make the script update correctly
 
 
