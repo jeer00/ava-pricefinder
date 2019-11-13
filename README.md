@@ -30,23 +30,22 @@ None really, all is done in the browser
 
     ### lastPrice:
     ```excel
-    =lastPrice(id, $A$1)
+    =lastPrice(id)
     ```
     Where id is the ID that Avanza provides in the URL. 
 
     ![alt text](https://i.imgur.com/dzunmFO.png "url with the id underlined")
 
-    Obs! The $A$1 is important to make the script update correctly
+
 
     ### nav:
     ```excel
-    =nav(id, $A$1)
+    =nav(id)
     ```
     Where id is the ID that Avanza provides in the URL
 
     ![alt text](https://i.imgur.com/offfiSk.png "url with the id underlined")
 
-    Obs! The $A$1 is important to make the script update correctly
 
 
 
