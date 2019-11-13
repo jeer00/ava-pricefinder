@@ -21,7 +21,9 @@ None really, all is done in the browser
 2. Head to Tools -> Script Editor
 3. Copy and paste the code in code.gs (or download code.gj and go "file -> open -> locate code.gs on your computer")
 4. Go to Triggers (the clock) -> add trigger
-    ![alt text](blob:https://imgur.com/2493bf83-0485-45de-8fc8-507940014ae4 "the clock selected in a red square")
+
+    ![alt text](https://imgur.com/2493bf83-0485-45de-8fc8-507940014ae4 "the clock selected in a red square")
+    
 5. Choose lastPrice as function to run, and On Open as event type -> Save
 6. Add trigger -> choose nav as function to run an on Open as event type -> Save 
 7. Use the functions as follows:
