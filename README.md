@@ -44,7 +44,7 @@ None really, all is done in the browser
     ```
     Where id is the ID that Avanza provides in the URL
 
-    ![alt text](https://i.imgur.com/offfiSk.png "url with the id underlined")
+    ![alt text](https://i.imgur.com/1n6cKni.png "url with the id underlined")
 
 
 
