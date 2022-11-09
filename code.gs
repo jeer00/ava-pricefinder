@@ -34,16 +34,9 @@ var answer = UrlFetchApp.fetch('https://www.avanza.se/ab/component/highstockchar
  * @customfunction
  */
 function nav (input) {
-var answer = UrlFetchApp.fetch('https://www.avanza.se/_cqbe/fund/fund-trading-terms/' + input);
+var answer = UrlFetchApp.fetch('https://www.avanza.se/_api/fund-guide/fund-trading-terms/' + input);
  var resp = answer.getContentText();
  var json = JSON.parse(resp);
  var nav = json['nav'];
   return nav;
 }
-
-
-
-
-
-
-
